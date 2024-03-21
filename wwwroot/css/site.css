@@ -20,3 +20,28 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+ a {
+     text-decoration: none;
+ }
+.button-link {
+    margin: 0 8px 0 8px;
+    background-color: #0E1E5B;
+    border-radius: 5px;
+}
+
+.button-text {
+    color:white;
+}
+
+.source-links {
+    margin: 0 8px 0 8px;
+    border: 2px solid #0E1E5B;
+    border-radius: 6px;
+    padding: 6px;
+    color: black;
+}
+
+.div-buttons, .div-links {
+    margin-top: 15px;
+}

@@ -1,8 +1,22 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Home";
 }
 
+<body class="home-page">
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">Bem-vindo!</h1>
+    <p>Esse é um projeto onde irá ser contado um pouco sobre os maiores torneios do mundo como a Libertadores, Champions League e Copa do Mundo.</p>
+
+    <div class="div-buttons">
+        <button class="button-link">
+            <a class="nav-link button-text" asp-area="" asp-controller="Libertadores" asp-action="Index">Libertadores</a>
+        </button>
+        <button class="button-link">
+            <a class="nav-link button-text" asp-area="" asp-controller="Champions" asp-action="Index">Champions League</a>
+        </button>
+        <button class="button-link">
+            <a class="nav-link button-text bg-opacity-50" asp-area="" asp-controller="CopaDoMundo" asp-action="Index">Copa do Mundo</a>
+        </button>
+    </div>
 </div>
+</body>
